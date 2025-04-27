@@ -31,8 +31,7 @@ public class Principal {
                     a.imprimircliente();
                     break;
                 case 3:
-                    JOptionPane.showMessageDialog(null, "Saindo...");
-                    break;
+                    System.exit(0);
                 default:
                     JOptionPane.showMessageDialog(null, "Opção inválida!");
             }
