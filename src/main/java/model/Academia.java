@@ -72,7 +72,6 @@ public class Academia {
         this.rua = rua;
     }
 
-    // Método de promoção
     public void promocao(Aluno a) {
         double salario = a.getSalario();
         if (salario < 1500) {
