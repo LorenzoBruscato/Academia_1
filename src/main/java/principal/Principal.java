@@ -15,8 +15,8 @@ public class Principal {
 
     public static void main(String[] args) {
         Aluno a = new Aluno();
-        int op = -1;
-        while (op != 0) {
+        int op;
+        while (true) {
             op = Integer.parseInt(JOptionPane.showInputDialog(
                     "Bem-vindo\n"
                     + "1 - Cadastrar o Cliente\n"
